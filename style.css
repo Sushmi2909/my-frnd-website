@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    
+}
+.p1{
+    color: rgb(255, 213, 157);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-style: initial;
+    transition: 0.15s;
+    text-shadow: 2px 2px 5px rgba(238, 240, 211, 0.507);
+}
+.p1:hover{
+    color: #bdbcb9;
+    font-size: 45px;
+}
+.p2{
+    color: #f3e7d0;
+    font-family: "Rubik",sans-serif;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+    transition:0.15s;
+}
+.p2:hover{
+    color: #bdbcb9;
+    font-size: 20px;;
+}
+.p3{
+     color: #e7e5cad0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    transition: 0.15s;
+}
+.p3:hover{
+    color: #bdbcb9;
+    font-size: 20px;
+}
+.img{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    transition: 0.15s;
+}
+.note{
+    font-family: "Josefin Sans", sans-serif;
+     color: #bdbcb9;
+    font-size: 20px;
+    text-align: center;
+    font-style: initial;
+}
+.letter {
+      font-family: "Josefin Sans", sans-serif;
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 10px;
+      border: 1px solid #383838;
+      border-radius: 10px;
+      background-color: #a3a2a2;
+      font-size: 18px;
+      line-height: 1.6;
+      box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+      color: rgb(24, 24, 24);
+      transition: 0.15s;
+    }
+.letter:hover{
+    margin: 50px auto;
+    max-width: 650px;
+    font-size: 19px;
+    background-color: rgb(24, 24, 24);
+    color: #a3a2a2;
+}
